@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Leer los datos
-car_data = pd.read_csv('../datasets/vehicles_us.csv')
+car_data = pd.read_csv('./datasets/vehicles_us.csv')
 
 # Encabezado
 st.header('Análisis interactivo de vehículos usados 🚗')
